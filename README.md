@@ -1,14 +1,14 @@
-# Nerfies
+# DOSE-I
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [DOSE-I website](https://schmidth-hal.github.io/DOSE-I/).
 
-If you find Nerfies useful for your work please cite:
+If you find DOSE-I useful for your work please cite:
 ```
 @article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+  author     = {Jakob Garbe AND Jan W. Kantelhardt AND Quang Vu Nguyen AND Florian Dünninghaus AND Karla Erffmeier AND Katja Seeliger AND Thomas Schmid},
+  title      = {Predicting Sedation Depth in Endoscopy with\\ a Large Clinically Annotated EEG Dataset of Continuous Propofol Sedation},
+  conference = {AIME},
+  year       = {2026},
 }
 ```
 
