@@ -4,7 +4,7 @@ This is the repository that contains source code for the [DOSE-I website](https:
 
 If you find DOSE-I useful for your work please cite:
 ```
-@article{park2021nerfies
+@article{garbe2026dose
   author     = {Jakob Garbe AND Jan W. Kantelhardt AND Quang Vu Nguyen AND Florian Dünninghaus AND Karla Erffmeier AND Katja Seeliger AND Thomas Schmid},
   title      = {Predicting Sedation Depth in Endoscopy with\\ a Large Clinically Annotated EEG Dataset of Continuous Propofol Sedation},
   conference = {AIME},
