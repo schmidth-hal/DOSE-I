@@ -95,26 +95,31 @@
             <span class="author-block">
               <a href="https://websrv.physik.uni-halle.de/Fachgruppen/kantel/">Jan W. Kantelhardt</a><sup>2</sup>,</span>
             <span class="author-block">
-              <a href="http://www.umh.de/nwg-schmid">Quang Vu Nguyen</a><sup>2</sup>,
+              <a href="http://www.umh.de/nwg-schmid">Quang Vu Nguyen</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.ameos.de/klinikum-warendorf/">Florian Dünninghaus</a><sup>2</sup>,
+              <a href="https://www.ameos.de/klinikum-warendorf/">Florian Dünninghaus</a><sup>4</sup>,
             </span>
             <span class="author-block">
-              <a href="https://www.ukgm.de/ugm_2/deu/umr_neu/">Karla Erffmeier</a><sup>2</sup>,
+              <a href="https://www.ukgm.de/ugm_2/deu/umr_neu/">Karla Erffmeier</a><sup>5</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.umh.de/nwg-schmid">Katja Seeliger</a><sup>1,2</sup>,
+              <a href="http://www.umh.de/nwg-schmid">Katja Seeliger</a><sup>3</sup>,
             </span>
             <span class="author-block">
-              <a href="http://www.umh.de/nwg-schmid">Thomas Schmid</a><sup>2</sup>
+              <a href="http://www.umh.de/nwg-schmid">Thomas Schmid</a><sup>3,1,6</sup>
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Washington,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
+            <span class="author-block"><sup>1</sup>University Hospital Halle, Halle (Saale), Germany,</span>
+            <span class="author-block"><sup>2</sup>Martin-Luther University Halle-Wittenberg, Faculty of Natural Sciences II, Institute of Physics, Halle (Saale), Germany  %\email{jan.kantelhardt@physik.uni-halle.de},</span>
+            <span class="author-block"><sup>2</sup>Martin Luther University Halle-Wittenberg, Medical Faculty, Digital Research Methods in Medicine Group, Halle (Saale), Germany,</span>
+            <span class="author-block"><sup>2</sup>AMEOS Klinikum Warendorf, Department of Internal Medicine, Warendorf, Germany,</span>
+            <span class="author-block"><sup>2</sup>Philipps-University Marburg, Department of Neurology, Marburg, Germany,</span>
+            <span class="author-block"><sup>2</sup>Lancaster University Leipzig, Leipzig, Germany ,</span>
           </div>
+          
 
           <div class="column has-text-centered">
             <div class="publication-links">
@@ -176,80 +181,6 @@
   </div>
 </section>
 
-<section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video id="teaser" autoplay muted loop playsinline height="100%">
-        <source src="./static/videos/teaser.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        <span class="dnerf">Nerfies</span> turns selfie videos from your phone into
-        free-viewpoint
-        portraits.
-      </h2>
-    </div>
-  </div>
-</section>
-
-
-<section class="hero is-light is-small">
-  <div class="hero-body">
-    <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/steve.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-chair-tp">
-          <video poster="" id="chair-tp" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/chair-tp.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-shiba">
-          <video poster="" id="shiba" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/shiba.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-fullbody">
-          <video poster="" id="fullbody" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/fullbody.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-blueshirt">
-          <video poster="" id="blueshirt" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/blueshirt.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-mask">
-          <video poster="" id="mask" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/mask.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-coffee">
-          <video poster="" id="coffee" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/coffee.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-toby">
-          <video poster="" id="toby" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/toby2.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 
 <section class="section">
   <div class="container is-max-desktop">
@@ -259,31 +190,13 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            Brain function monitors are a widely used tool in general anesthesia. For monitoring drug effects in procedural sedation, however, no objective device is currently available.
+            While available monitors offer no clinically significant benefit in sedation, the reasons why are not well understood and labeled data is lacking. 
+            To enable a data-driven approach for sedation depth prediction, we collected 2-channel fronto-temporal EEG signal enhanced with additional biosignals during Propofol sedation for gastrointestinal and bronchoscopic endoscopies. 
+            Recordings were annotated in real-time with clinical events and the State of Consciousness (SoC) as well as clinical Sedation Depth.
+            171 patients were enrolled comprising 78.5 hours of multimodal biosignal data with 1129 transitions of the SoC and 7328 sedation depth data points measured on the MOAA/S scale.  
+            Applying advanced feature engineering and basic machine learning, we demonstrate that this data is suitable for researching and predicting SoC and sedation depth. 
+            Further, we present the resulting dataset as the first public large-scale EEG-based multimodal dataset in routine procedural sedation with rich clinical labeling.
           </p>
         </div>
       </div>
@@ -310,7 +223,7 @@
 
     <div class="columns is-centered">
 
-      <!-- Visual Effects. -->
+      <!-- Visual Effects.
       <div class="column">
         <div class="content">
           <h2 class="title is-3">Visual Effects</h2>
@@ -324,9 +237,9 @@
           </video>
         </div>
       </div>
-      <!--/ Visual Effects. -->
+      Visual Effects. -->
 
-      <!-- Matting. -->
+      <!-- Matting.
       <div class="column">
         <h2 class="title is-3">Matting</h2>
         <div class="columns is-centered">
@@ -344,14 +257,14 @@
         </div>
       </div>
     </div>
-    <!--/ Matting. -->
+    Matting. -->
 
-    <!-- Animation. -->
+    <!-- Animation.
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Animation</h2>
 
-        <!-- Interpolating. -->
+        <!-- Interpolating.
         <h3 class="title is-4">Interpolating states</h3>
         <div class="content has-text-justified">
           <p>
@@ -385,7 +298,7 @@
         <br/>
         <!--/ Interpolating. -->
 
-        <!-- Re-rendering. -->
+        <!-- Re-rendering.
         <h3 class="title is-4">Re-rendering the input video</h3>
         <div class="content has-text-justified">
           <p>
@@ -404,14 +317,14 @@
                     type="video/mp4">
           </video>
         </div>
-        <!--/ Re-rendering. -->
+        <!--/ Re-rendering.
 
       </div>
     </div>
-    <!--/ Animation. -->
+    Animation. -->
 
 
-    <!-- Concurrent Work. -->
+    <!-- Concurrent Work.
     <div class="columns is-centered">
       <div class="column is-full-width">
         <h2 class="title is-3">Related Links</h2>
